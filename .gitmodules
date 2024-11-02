@@ -1,0 +1,6 @@
+[submodule "rsa-frontend"]
+	path = rsa-frontend
+	url = git@github.com:muxinyu1/rsa-frontend.git
+[submodule "rsa-backend"]
+	path = rsa-backend
+	url = git@github.com:muxinyu1/rsa-backend.git
