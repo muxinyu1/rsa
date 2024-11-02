@@ -1,7 +1,7 @@
 services:
   frontend:
     build: 
-      context: rsa-frontend
+      context: ./rsa-frontend
       dockerfile: Dockerfile
     depends_on:
       - backend
@@ -12,7 +12,7 @@ services:
       - VITE_API_BASE_PORT=8080
   backend:
     build:
-      context: rsa-backend
+      context: ./rsa-backend
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
